@@ -1,1 +1,1 @@
-console.log(Note("My favourite language is Javript"));
+console.log(Note("My favourite language is JavaScript"));
