@@ -1,11 +1,13 @@
-(function(exports) {
-  function notePrinter() {
+function testNoteList() {
+  var noteList = new NoteList();
+  notes = noteList.getNotes();
+  assert.isTrue(noteList.getNotes().length === 0);
+}
+testNoteList();
 
-    var list = new List();
-    list.newNote("string");
-
-    assert.isTrue(typeof list._notes !== 'object');
-    assert.isTrue(list._notes[0]._text !== "string")
-  }
-  notePrinter();
-})(this);
+function testCreatingNote() {
+  var noteList = new NoteList();
+  noteList.createNote("JavaScript");
+  assert.isTrue(noteList.getNotes()[0].getText() === "JavaScript");
+}
+testCreatingNote();

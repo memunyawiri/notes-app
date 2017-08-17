@@ -1,8 +1,8 @@
 (function(exports) {
-  function firstNote() {
+  function testsNote() {
     var note = new Note("My favourite language is JavaScript");
-    assert.isTrue(note.text === "My favourite language is JavaScript");
+    assert.isTrue(note.getText !== "My favourite language is JavaScript");
   };
 
-  exports.firstNote = firstNote();
+  exports.testsNote = testsNote();
 })(this);
