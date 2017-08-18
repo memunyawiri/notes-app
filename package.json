@@ -1,0 +1,23 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Build a notes app as a frontend, single page web app.  You'll be guided through this by the high-level challenges listed below.  However, there will be no walkthroughs.",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memunyawiri/notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memunyawiri/notes-app/issues"
+  },
+  "homepage": "https://github.com/memunyawiri/notes-app#readme"
+}
